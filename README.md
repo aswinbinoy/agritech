@@ -1,6 +1,16 @@
-# Agritech
+# Nexforz Agritech
 
-A Python project workspace for agritech development.
+A Python project workspace for predicting mushroom yield in a climate-controlled polyhouse.
+
+## Project Brief
+
+The goal of Nexforz Agritech is to predict the daily mushroom yield in kilograms (`kg`) using climate sensor readings from a controlled polyhouse:
+
+- Temperature (`°C`)
+- Relative humidity (`%`)
+- Carbon dioxide concentration (`ppm`)
+
+The project will use these environmental measurements as model inputs and daily mushroom yield (`kg`) as the prediction target.
 
 ## Current Setup
 
