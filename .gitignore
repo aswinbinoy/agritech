@@ -26,6 +26,26 @@ build/
 dist/
 *.egg-info/
 
+# Dataset and model artifacts
+/data/interim/
+/data/processed/
+/data/raw/*.csv
+!/data/raw/polyhouse_sensors.csv
+/data/raw/*.parquet
+/data/raw/*.feather
+/data/raw/*.arrow
+/data/raw/*.zip
+/data/raw/*.gz
+/models/*.pkl
+/models/*.pickle
+/models/*.joblib
+/models/*.onnx
+/models/*.h5
+/models/*.hdf5
+/models/*.pt
+/models/*.pth
+/models/*.safetensors
+
 # IDE and OS files
 .vscode/
 .idea/
